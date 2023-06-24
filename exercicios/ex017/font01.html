@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Work Sans',Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            */
+            font-size: 1em ;
+            font-weight: border;
+            /* lighter normal bolb bolder */
+        }
+
+        h1 {
+            
+            /* shorthand
+            
+            - font-style -> font-weight -> font-size -> font-family
+            
+            sempre seguindo a ardem de cima 
+
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+
+            O código abaixo resume o código de cima simplificando o mesmo código em uma linha.
+
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda veritatis aperiam nihil quod dicta facilis! Deleniti atque quas quisquam enim, possimus nobis accusantium tempora sint necessitatibus provident magnam tenetur accusamus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quam optio eos. Impedit, repellendus asperiores doloribus amet doloremque dicta nemo, possimus sed ex assumenda magni consequuntur, quam nesciunt iusto consequatur.</p>
+    <h2>Subtítulo de exercícios</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem repellendus molestias, sed et rem obcaecati voluptates repudiandae excepturi. Obcaecati architecto asperiores nesciunt reiciendis neque ducimus? Minus illum modi at officia?</p>
+</body>
+</html>
